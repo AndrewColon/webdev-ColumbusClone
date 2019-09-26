@@ -1,6 +1,7 @@
 li{
    display: inline; 
    background-color: #10243b;
+   margin: 0px;
    
    
    
@@ -9,6 +10,7 @@ li{
 
 ul{
     list-style-type: none;
+    margin: 0px;
 }
 
 a {
@@ -18,9 +20,6 @@ a {
    text-transform: uppercase;
    font-weight: bold;
    font-family: 'Open Sans', sans-serif;
-
-     
-
 }
 
 nav{
@@ -32,3 +31,13 @@ body {
     margin: 0px;
 
 }
+
+ body #hero {
+    background-image: url("../webdev-ColumbusClone/images/fans.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    color: black
+}
+
+
