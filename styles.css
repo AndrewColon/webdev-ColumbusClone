@@ -32,12 +32,37 @@ body {
 
 }
 
- body #hero {
-    background-image: url("../webdev-ColumbusClone/images/fans.jpg");
+  #hero {
+    background-image: url("images/fans.jpg");
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
-    color: black
+    background-size: cover;
+   
 }
 
+#herotext {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: white;
+}
 
+#logoPic {
+    position: absolute;
+    top: -12px;
+    left: -175px;
+}
+
+#exploreheader {
+    height: 80px;
+    width: 100vw;
+    background-color: #10243b;
+    text-align: center;
+}
+
+#Explorecchs {
+    height: 15px;
+    width: 100vw;
+    background-color: #10243b;
+}
