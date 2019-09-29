@@ -59,10 +59,52 @@ body {
     width: 100vw;
     background-color: #10243b;
     text-align: center;
+    position: absolute;
+    top: 930px;
+
 }
 
 #Explorecchs {
-    height: 15px;
+    height: 500px;
     width: 100vw;
-    background-color: #10243b;
+    background-color:yellow;
+}
+
+#exploresection {
+    height: 330px;
+    width: 100vw;
+    background-color: skyblue;
+}
+
+.explorebox {
+    height: 320px;
+    width: 450px;
+}
+
+#hurricane {
+    background-image: url(../webdev-ColumbusClone/images/patriots\ plaza.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+#Guidance {
+    background-image: url(../webdev-ColumbusClone/images/college.png);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+#ccnn {
+    background-image: url(../webdev-ColumbusClone/images/ccnn.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+#media {
+    background-image: url(../webdev-ColumbusClone/images/columbus\ seal.png);
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
 }
