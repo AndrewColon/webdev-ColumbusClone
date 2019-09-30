@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 li{
    display: inline; 
    background-color: #10243b;
@@ -20,6 +26,7 @@ a {
    text-transform: uppercase;
    font-weight: bold;
    font-family: 'Open Sans', sans-serif;
+   
 }
 
 nav{
@@ -50,8 +57,8 @@ body {
 
 #logoPic {
     position: absolute;
-    top: -12px;
-    left: -175px;
+    top: -50px;
+    left: -165px;
 }
 
 #exploreheader {
@@ -59,9 +66,6 @@ body {
     width: 100vw;
     background-color: #10243b;
     text-align: center;
-    position: absolute;
-    top: 930px;
-
 }
 
 #Explorecchs {
@@ -79,32 +83,75 @@ body {
 .explorebox {
     height: 320px;
     width: 450px;
+    padding: 0px 11px;
 }
 
 #hurricane {
-    background-image: url(../webdev-ColumbusClone/images/patriots\ plaza.jpg);
+    background-image: url(images/patriots\ plaza.jpg);
     background-size: cover;
     background-position: center;
     display: inline-block;
 }
 
 #Guidance {
-    background-image: url(../webdev-ColumbusClone/images/college.png);
+    background-image: url(images/college.png);
     background-size: cover;
     background-position: center;
     display: inline-block;
 }
 
 #ccnn {
-    background-image: url(../webdev-ColumbusClone/images/ccnn.jpg);
+    background-image: url(images/ccnn.jpg);
     background-size: cover;
     background-position: center;
     display: inline-block;
 }
 
 #media {
-    background-image: url(../webdev-ColumbusClone/images/columbus\ seal.png);
-    background-size: contain;
+    background-image: url(images/ccnn\ live.png);
+    background-size: cover;
     background-position: center;
     display: inline-block;
 }
+
+#glancebox {
+    color: #10243b;
+    text-align: center;
+    font-size: 30px;
+}
+
+#teacher {
+    background-image: url(images/grad.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.gb {
+    height: 200px;
+    width: 195px;
+    vertical-align: middle;
+
+}
+
+#gradhat {
+    background-image: url(images/carosel\ teaching.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+#book {
+    background-image: url(images/book.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+#football {
+    background-image: url(images/sports.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
