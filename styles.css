@@ -81,7 +81,7 @@ body {
 }
 
 .explorebox {
-    height: 320px;
+    height: 330px;
     width: 450px;
     padding: 0px 11px;
 }
@@ -139,6 +139,11 @@ body {
     background-size: cover;
     background-position: center;
     display: inline-block;
+    text-align: center;
+}
+
+#gradhat h2{
+    color: red;
 }
 
 #book {
