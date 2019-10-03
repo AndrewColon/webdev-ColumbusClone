@@ -108,46 +108,83 @@ body {
 }
 
 #media {
-    background-image: url(images/ccnn\ live.png);
+    
     background-size: cover;
     background-position: center;
     display: inline-block;
 }
 
 #glancebox {
-    color: #10243b;
+    background-color: white;
     text-align: center;
     font-size: 30px;
 }
 
 #teacher {
-    background-image: url(images/grad.jpg);
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
+    width: 200px;
+    height: 200px;
+
 }
 
-.gb {
-    height: 200px;
-    width: 195px;
-    vertical-align: middle;
-    display: inline-block;
-    text-align: center;
-
+ .redtext {
+    color: red;
 }
 
 #gradhat {
-    background-image: url(images/carosel\ teaching.jpg);
+    width: 200px;
+    height: 200px;
+}
+
+#book {
+    width: 200px;
+    height: 200px;
+}
+
+#football {
+    width: 200px;
+    height: 200px;
+}
+
+    
+    
+
+#teacher h2 {
+    color: red;
+}
+
+.gb {
+    height: 400px;
+    width: 300px;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    margin: 80px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.875em;
+}
+
+
+#gradhat {
+    
     background-size: cover;
     background-position: center;
+}
+
+#gradhat h2{
+    color: red;
 }
 
 
 #book {
-    background-image: url(images/book.jpg);
+
     background-size: cover;
     background-position: center;
     display: inline-block;
+    line-height: 1;
+}
+
+#book h2{
+    color: red;
 }
 
 #football {
@@ -155,6 +192,26 @@ body {
     background-size: cover;
     background-position: center;
     display: inline-block;
+}
+
+#football h2{
+    color: red;
+}
+
+#flexbox {
+    background-color: #10243b;
+    height: 125px;
+    width: 1200px;
+    text-align: center;
+    margin-left: 415px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: white;
+   
+}
+
+#flextext {
+    padding: 37px 37px;
 }
 
 #footer {
